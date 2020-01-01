@@ -20,6 +20,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka
+  instance:
+    # 配置使用主机名注册服务
+    hostname: firstmetcs.com
 management:
   endpoints:
     web:
