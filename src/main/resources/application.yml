@@ -22,7 +22,8 @@ eureka:
       defaultZone: http://localhost:8000/eureka
   instance:
     # 配置使用主机名注册服务
-    hostname: firstmetcs.com
+    # hostname: firstmetcs.com
+    prefer-ip-address: true
 management:
   endpoints:
     web:
